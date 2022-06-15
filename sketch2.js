@@ -53,7 +53,7 @@ var database;
 
 
 function preload(){
-  csv = loadTable('284_fix.csv', 'csv', 'header');
+  csv = loadTable('assets/284_fix.csv', 'csv', 'header');
   //csv2 = loadTable('all.csv', 'csv', 'header');
   extra=createGraphics(1920,1440);
   //vid=createVideo('video/acc2bbbbb.mp4');
