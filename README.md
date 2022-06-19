@@ -1,5 +1,5 @@
 # NameSpace
-
+<img width="1328" alt="image" src="https://user-images.githubusercontent.com/82695772/174470080-d0b5a7c7-e9cb-45ea-a2d2-e4dd8680e7d9.png">
 
 ## TEAM
 - 팀명 : 건강박수
@@ -18,8 +18,6 @@
   인구가 많은 순으로 본관 총 284개로 추려 분파도에 올라와있는 이름을 수집하고 ID를 부여해서 데이터를 가공하였습니다. 
 
 ### PROCESS
-1. 본인의 본관을 입력하세요.
-
 
    
 
