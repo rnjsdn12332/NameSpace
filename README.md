@@ -13,8 +13,8 @@
   인구가 많은 순으로 본관 총 284개로 추려 분파도에 올라와있는 이름을 수집하고 ID를 부여해서 데이터를 가공하였습니다. 
 
 ### SKILLS
->HTML, CSS, javascript
->p5.js(https://p5js.org/)
+>HTML, CSS, javascript</br>
+>p5.js(https://p5js.org/)</br>
 >Firebase
 
 ### PROCESS
