@@ -9,9 +9,9 @@
 >한국인들의 족보 빅데이터를 이용한 Generative Interaction Media Art입니다.
 
 ### SKILLS
->HTML, CSS, javascript</br>
->p5.js(https://p5js.org/)</br>
->Firebase
+- HTML, CSS, javascript</br>
+- p5.js(https://p5js.org/)</br>
+- Firebase
 
 ### DATA
 >한국인의 족보 (http://xn--3e0bm80a8yhwdw5c209b.com/) </br>
