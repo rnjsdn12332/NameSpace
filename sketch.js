@@ -104,7 +104,7 @@ function setup() {
   let col = color("#000000");
 
   input2 = createInput();
-  input2.position(width/2-280, 2245);
+  input2.position(width/2-280, 2265);
   input2.size(400,60);
 
   input2.style('background-color', col);
@@ -113,7 +113,7 @@ function setup() {
   input2.style('font-size', '40px');
   
   button2 = createButton('S U B M I T');
-  button2.position(width/2+160, 2265);
+  button2.position(width/2+160, 2285);
   button2.size(200,50);
 
   button2.style('background-color', col);
