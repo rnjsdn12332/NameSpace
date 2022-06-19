@@ -104,7 +104,7 @@ function setup() {
   let col = color("#000000");
 
   input2 = createInput();
-  input2.position(width/2-300, 2560);
+  input2.position(width/2-250, 2260);
   input2.size(400,60);
 
   input2.style('background-color', col);
@@ -113,7 +113,7 @@ function setup() {
   input2.style('font-size', '40px');
   
   button2 = createButton('S U B M I T');
-  button2.position(width/2+50, 2580);
+  button2.position(width/2+50, 2260);
   button2.size(200,50);
 
   button2.style('background-color', col);
@@ -236,7 +236,7 @@ function setup() {
     }
 
 
-    for(let h=0; h<284; h++){//여기 수정해야됌
+    for(let h=0; h<284; h++){
       x=0;
       y=0;
       x2=0;
