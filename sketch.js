@@ -54,13 +54,9 @@ var database;
 
 function preload(){
   csv = loadTable('./assets/284_fix.csv', 'csv', 'header');
-  //csv2 = loadTable('all.csv', 'csv', 'header');
   extra=createGraphics(1920,1440);
-  //vid=createVideo('video/acc2bbbbb.mp4');
-vid=createVideo('video/acb.mp4');
-
+  vid=createVideo('video/acb.mp4');
   soundFormats('mp3', 'ogg');
- // mySound = loadSound('assets/spaceb5');
   mySound2 = loadSound('assets/drip2');
   mySound3 = loadSound('assets/drip3');
   mySound4 = loadSound('assets/drip4');
@@ -104,7 +100,7 @@ function setup() {
   let col = color("#000000");
 
   input2 = createInput();
-  input2.position(width/2-250, 2260);
+  input2.position(width/2-400, 2360);
   input2.size(400,60);
 
   input2.style('background-color', col);
@@ -113,7 +109,7 @@ function setup() {
   input2.style('font-size', '40px');
   
   button2 = createButton('S U B M I T');
-  button2.position(width/2+50, 2260);
+  button2.position(width/2, 2370);
   button2.size(200,50);
 
   button2.style('background-color', col);
@@ -1045,8 +1041,8 @@ function Circle(x,y,r,name){
           
           let namesize=map(this.count,500000,3,500,15);
           
-          //fill("#00FFFF");  //도착한 글씨 색깔
-          fill(this.startColor); //붙으면 반짝거림
+          //fill("#00FFFF");  
+          fill(this.startColor); 
           noStroke();
           textFont(koFont,namesize);
           text(this.name,this.position.x,this.position.y);
